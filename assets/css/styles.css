@@ -1,0 +1,36 @@
+
+.flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+.main{
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout{
+    justify-content: space-around;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border: none;
+}
+
+h1,h6,h5{
+    margin: 0px;
+    color: darkslateblue;
+    
+}
+
+
+
+.bd-red{
+   border: 2px solid red;
+}
+
+.bd-none{
+    border: none;
+}
