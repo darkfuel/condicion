@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .flex {
     display: flex;
@@ -16,21 +21,19 @@
 img{
     height: 150px;
     width: 150px;
-    border: none;
 }
 
 h1,h6,h5{
     margin: 0px;
-    color: darkslateblue;
-    
+    color: darkslateblue; 
 }
 
-
-
-.bd-red{
-   border: 2px solid red;
+.inferior{
+    padding: 10px;
+    text-align: center;
 }
 
-.bd-none{
-    border: none;
+button{
+    margin:15px;
+    padding: 3px;
 }

@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Stickers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./assets/css/styles.css">
+<title>Stickers</title>
 </head>
+
 <body>
     <h1>Stickers</h1>
     <h6>**Maximo 10</h6>
+    
+//tarjetas de stickers
     <div class="flex layout">
         <div class=" main flex">
-            <img src="./assets/img/sram.svg" alt="logo">    
-            <input type="text" id="st1">cantidad</input>
+            <img src="./assets/img/sram.svg" alt="logo">
+            <input type="number" id="st1" min="0">cantidad</input>
         </div>
         <div class=" main flex">
-            <img src="./assets/img/rockshox-logo-B2B97F080D-seeklogo.com.png" alt="logo">    
-            <input type="text" id="st2">cantidad</input>
+            <img src="./assets/img/rockshox-logo-B2B97F080D-seeklogo.com.png" alt="logo">
+            <input type="number" id="st2" min="0">cantidad</input>
         </div>
         <div class="  main flex">
-            <img src="./assets/img/shimano_logo.avif" alt="logo">    
-            <input type="text" id="st3">cantidad</input>
+            <img src="./assets/img/shimano_logo.avif" alt="logo">
+            <input type="number" id="st3" min="0">cantidad</input>
         </div>
     </div>
-    <h5>Total: <span class="total">0</span></h5>
-    <script src="./assets/js/app.js"></script>
+
+//mensajes y boton de accion
+    <div class="inferior">
+        <p>Seleccione Stickers</p>
+        <button>Verificar</button>
+        <h5>Total: <span class="total">0</span></h5>
+    </div>
+    <script src="./assets/js/app2.js"></script>
 </body>
+
 </html>
